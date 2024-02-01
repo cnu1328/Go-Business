@@ -32,29 +32,22 @@
     }
 }
   
-@media (max-width: 1280px) {
-    .first-section .intro {
-      grid-template-columns: 55% 45%;
-    }
-}
+
   
 @media (max-width: 980px) {
-    .first-section::after {
-      top: 2px;
-      left: 50%;
-      transform: translateX(-50%);
-      right: auto;
-      bottom: 0;
-      width: 100vw;
-    }
+    
   
     .first-section .intro {
-      grid-template-columns: 100%;
+      flex-direction: column;
     }
 
     .first-section .intro .image-container {
         margin: auto;
         margin-top: 20px;
+    }
+
+    .first-section .intro .content {
+        margin: auto;
     }
 }
   
@@ -75,7 +68,7 @@
     
 }
   
-@media (max-width: 480px) {
+@media screen and  (max-width: 480px) {
     .first-section {
       padding: 8.8rem 0 4.4rem;
       position: relative;
@@ -105,12 +98,14 @@
     }
   
     .first-section .customers .work-to {
-      grid-template-columns: repeat(2, 30%);
+      grid-template-columns: repeat(200px, 30%);
       justify-content: space-around;
       gap: 2rem;
     }
   
 }
+
+
 
 
 @media screen and (max-width: 395px) {
@@ -139,17 +134,26 @@
 
 
 @media screen and (max-width: 380px){
-    .crads {
-        margin: 10px;
-        justify-content: center;
+    .cards {
+        display: block !important;
+        margin: 0 auto 30px !important;
+        
     } 
 
     .card-title {
-        width: 250px;
+        width: 280px;
     }
 
     .card-content {
-        width: 250px;
+        grid-template-columns: 1fr;
+        width: 280px;
+    }
+
+    .card1,
+    .card2,
+    .card3 {
+        width: 280px;
+        margin: 30px 0 30px 0 !important;
     }
 }
 

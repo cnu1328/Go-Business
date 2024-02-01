@@ -163,7 +163,6 @@ nav {
 
 
 .container {
-    max-width: 106rem;
     width: 100%;
     margin: 0 auto;
     font-family: "Poppins", sans-serif;
@@ -172,29 +171,22 @@ nav {
 /* Section 1 */
 
 .first-section {
-    width: 95%;
+    width: 100%;
     margin: auto;
-    padding: 100px 0 350px ;
-    position: relative;
-}
-
-
-.first-section::after {
-    content: "";
-    position: absolute;
-    top: 2px;
-    left: -2.2rem;
-    right: -2.2rem;
-    bottom: 0;
+    padding: 100px 20px 350px ;
+    overflow: hidden;
     background-image: url("../assests/first-section-bg.svg");
     background-size: cover;
     background-repeat: no-repeat;
     z-index: -1;
 }
 
+
+
+
 .first-section .intro {
-    display: grid;
-    grid-template-columns: 50% 50%;
+    display: flex;
+    justify-content: space-evenly;
 }
   
 .first-section .intro .content {
@@ -212,6 +204,7 @@ nav {
 .first-section .intro .content p {
     font-size: 1.5rem;
     margin-top: 1.4rem;
+    max-width: 600px;
 }
 
 .first-section .intro .content .btn-container {
@@ -225,13 +218,11 @@ nav {
 .first-section .intro .content .btn-img {
     display: flex;
     margin-left: 3.2rem;
-    width: 60px;
-    height: 60px;
+    width: 100%;
+    height: 100%;
 }
   
 .first-section .intro .content .btn-img img {
-    width: 100%;
-    height: 100%;
     object-fit: cover;
 }
 
@@ -284,12 +275,19 @@ nav {
     max-width: 800px;
     display: grid;
     gap: 2.8rem;
-    grid-template-columns:
-        minmax(auto, 14.3rem)
-        minmax(auto, 22.1rem)
-        minmax(auto, 16.9rem)
-        minmax(auto, 11.7rem);
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
     align-items: center;
+}
+@media screen and (max-width: 480px) {
+    .first-section {
+        padding-bottom: 30px;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .first-section .customers .work-to {
+        grid-template-columns: repeat(auto-fill, minmax(90px, 1fr));
+    } 
 }
 
 .first-section .customers .work-to img {
