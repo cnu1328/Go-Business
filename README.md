@@ -22,10 +22,14 @@ Engage in hands-on learning with projects that go beyond theoretical knowledge. 
 
 ## Repository Structure
 
-1. **Project 1: [Project Name]**
+1. **Project 1: [Web Services Showcase page]**
    - In this project, I've enhanced the index.html file to include a new category named "Web Development Services." Now, clients can easily navigate to this section and explore a variety of web development services tailored to meet their specific needs.
    - [Live Link](https://cnu1328.github.io/Goo-Business/project1/index.html)
-
+  
+2. **Project 2: [Web Development Services Page  with Order Placement]**
+   - In this project, I've created a user-friendly service page that empowers clients to explore and order web development services tailored to their unique needs. Users can seamlessly navigate through different offerings, choose from various pricing criteria, and make informed decisions based on their project requirements.
+   - [Live Link](https://cnu1328.netlify.app/)
+  
 
 
 ## Connect with Me
