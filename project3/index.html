@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <section class="contact">
+
+        <div class="left-side">
+            <h2>Contact Us!</h2>
+
+            <form action="#">
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" placeholder="Full Name" id="name" class="item" autocomplete="off">
+                        <div class="error-txt">Full Name can't be Blank</div>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="email" placeholder="example@gmail.com" id="email" class="item">
+                        <div class="error-txt email">Email can't be Blank</div>
+                    </div>
+                </div>
+
+                <div class="input-box">
+                    <div class="input-field field">
+                        <input type="text" placeholder="subject" id="subject" class="item">
+                        <div class="error-txt">Subject can't be Blank</div>
+                    </div>
+                </div>
+
+                <div class="textarea-field field">
+                    <textarea name="message" id="message" cols="20" rows="5" placeholder="Message" class="item" autocomplete="off"></textarea>
+                    <div class="error-txt">Message can't be Blank</div>
+
+                </div>
+
+                <button type="submit">Send Message</button>
+            </form>
+        </div>
+
+        <div class="right-side">
+            <img src="./assets/contact us 1.png" alt="Contact us" class="img">
+        </div>
+    </section>
+
+    <script src="https://smtpjs.com/v3/smtp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/sweetalert2@11"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
