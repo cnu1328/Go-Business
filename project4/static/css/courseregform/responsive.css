@@ -1,0 +1,137 @@
+/* Main */
+
+/* First Section */
+
+@media screen and (max-width: 1080px) {
+
+    .first-section .content h1 {
+        font-size: 45px;
+    }
+    
+    .first-section .content p {
+        font-size: 25px;
+    }
+
+    .img {
+        width: 500px;
+    }
+}
+
+
+@media screen and (max-width: 898px) {
+
+    .first-section .content h1 {
+        font-size: 38px;
+    }
+    
+    .first-section .content p {
+        font-size: 20px;
+    }
+
+    .img {
+        width: 400px;
+    }
+}
+
+
+@media screen and (max-width: 700px) {
+
+    .first-section .content h1 {
+        font-size: 25px;
+    }
+    
+    .first-section .content p {
+        font-size: 15px;
+    }
+
+    .img {
+        width: 200px;
+    }
+}
+
+
+@media screen and (max-width: 450px) {
+
+    .first-section .content h1 {
+        font-size: 18px;
+    }
+    
+    .first-section .content p {
+        font-size: 12px;
+        margin-top: 5px;
+    }
+
+    .img {
+        width: 120px;
+    }
+}
+
+@media screen and (max-width: 300px) {
+    .content-img {
+        display: none;
+    }
+}
+
+/* Second-section */
+
+@media screen and (max-width: 1080px) {
+
+    .form {
+        width: 500px;
+    }
+
+    .feature {
+        width: 300px;
+    }
+}
+
+
+@media screen and (max-width: 850px) {
+
+    .form {
+        width: 400px;
+    }
+
+    .feature {
+        width: 200px;
+    }
+}
+
+@media screen and (max-width: 850px) {
+
+    .form-content {
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .form {
+        width: 90%;
+    }
+    
+}
+
+/* Employ Section */
+
+@media screen and (max-width: 770px) {
+    .employ-div {
+        flex-direction: column;
+    }
+
+    .employ-div-content h1 {
+        font-size: 30px;
+    }
+}
+
+/* Experience Section */
+
+
+@media screen and (max-width: 770px) {
+    .experience-div {
+        flex-direction: column;
+    }
+
+    .experience-div-content  h1 {
+        font-size: 30px;
+    }
+}
+
