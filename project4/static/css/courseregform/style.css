@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Chivo:ital,wght@0,100..900;1,100..900&family=Edu+TAS+Beginner:wght@600&family=Playpen+Sans:wght@600&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap');
+
 :root {
     --main-bg-color: #2874f0;
 }
@@ -7,6 +9,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
 }
 
 
@@ -14,7 +17,6 @@
 
 header {
     background: var(--main-bg-color);
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
     height: 70px;
     box-shadow: -2px 13px 12px -9px rgba(0,0,0,0.3);
 }
@@ -33,6 +35,8 @@ header nav img {
 }
 
 .first-section .content {
+    width: 90%;
+    margin: auto;
     display: flex;
     justify-content: space-around;
     align-items: center;
@@ -41,7 +45,9 @@ header nav img {
 }
 
 .first-section .content h1 {
-    font-size: 60px;
+    font-family: "Chivo", sans-serif;
+    font-weight: bold;
+    font-size: 50px;
 }
 
 .first-section .content p {
@@ -58,7 +64,7 @@ header nav img {
 }
 
 .yellow {
-    color: yellow;
+    color: rgb(205, 205, 5);
 }
 
 .red {
@@ -175,7 +181,7 @@ header nav img {
 
 .break {
     width: 85%;
-    margin: 100px auto;
+    margin: 60px auto;
     border-radius: 50px;
     border: 2px solid rgb(91, 88, 88);
     
@@ -228,6 +234,11 @@ header nav img {
     text-align: justify;
     text-indent: 40px;
     font-size: 17px;
+}
+
+.employ-div-img img {
+    border-radius: 10px;
+    box-shadow: 2px 1px 7px 0px rgba(49, 49, 49, 0.75);
 }
 
 
@@ -339,9 +350,6 @@ header nav img {
 /* Tools */
 
 
-
-
-
 .tools-covered {
     width: 90%;
     margin: 0 auto;
@@ -352,7 +360,6 @@ header nav img {
 .tools-div {
     display: grid;
     grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
-    grid-auto-rows: minmax(250, auto);
     gap: 15px;
 }
 
@@ -364,7 +371,7 @@ header nav img {
 }
 
 .tools-div-detail-icon img {
-    width: 100px;
+    width: 80px;
 }
 
 .tools-div-detail-icon i {
@@ -375,6 +382,7 @@ header nav img {
 
 .tools-div-detail-name p {
     margin-top: 10px;
+    text-align: center;
 }
 
 .tools-covered h1 {
@@ -407,6 +415,8 @@ header nav img {
 .join-button-div h1 {
     font-weight: bold;
     color:rgb(91, 88, 88);
+    text-align: center;
+    font-size: 30px;
 }
 
 .join-button-div button a {
@@ -422,6 +432,7 @@ header nav img {
     border-radius: 10px;
     display: block;
     margin: auto;
+    margin-top: 20px;
 }
 
 .join-button-div button:hover  {
@@ -431,7 +442,7 @@ header nav img {
 /* Footer */
 
 .footer-div {
-    height: 100px;
+    height: 150px;
     background-color:rgb(67, 66, 66); 
 }
 
