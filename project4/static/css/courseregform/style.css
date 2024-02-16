@@ -306,7 +306,16 @@ header nav img {
 
 .emperience-div-img img {
     width: 100%;
+    border-radius: 10px;
 }
+
+.emperience-div-img img:hover {
+    box-shadow: 2px 1px 7px 0px rgba(49, 49, 49, 0.75);
+}
+
+
+
+
 
 .experience-div-content {
     width: 80%;
