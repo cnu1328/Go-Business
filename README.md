@@ -24,11 +24,17 @@ Engage in hands-on learning with projects that go beyond theoretical knowledge. 
 
 1. **Project 1: [Web Services Showcase page]**
    - In this project, I've enhanced the index.html file to include a new category named "Web Development Services." Now, clients can easily navigate to this section and explore a variety of web development services tailored to meet their specific needs.
-   - [Live Link](https://cnu1328.github.io/Goo-Business/project1/index.html)
+   - [Live Link](https://cnu13281.netlify.app/project1/index.html)
   
 2. **Project 2: [Web Development Services Page  with Order Placement]**
    - In this project, I've created a user-friendly service page that empowers clients to explore and order web development services tailored to their unique needs. Users can seamlessly navigate through different offerings, choose from various pricing criteria, and make informed decisions based on their project requirements.
-   - [Live Link](https://cnu1328.netlify.app/)
+   - [Live Link](https://cnu13281.netlify.app/project2/index.html)
+
+3. **Project 3: [Contact Us Page]**
+   - [Live Link](https://cnu13281.netlify.app/project3/index.html)
+  
+4. **Project 4: [Figma Design]**
+   - [Live Link](https://cnu13281.netlify.app/project4/index.html)
   
 
 
