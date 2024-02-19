@@ -146,19 +146,26 @@ header nav img {
     flex-direction: column;
     align-items: center;
     gap: 50px;
-
 }
 
 .feature-card {
     display: flex;
-    justify-content: start;
+    justify-content: center;
     align-items: center;
-    gap: 40px;
+    gap: 30px;
+}
+
+.feature-card .icon  {
+    width: 80px;
 }
 
 .feature-card .icon i {
     font-size: 60px;
     font-weight: bold;
+}
+
+.feature-card .description {
+    flex: 1; 
 }
 
 .feature-card .description h4 {
@@ -177,6 +184,9 @@ header nav img {
     font-weight: 400;
 } 
 
+.rupee {
+    padding-left: 15px;
+}
 
 
 .break {
@@ -186,6 +196,8 @@ header nav img {
     border: 2px solid rgb(91, 88, 88);
     
 }
+
+
 
 /* Employment Section */
 
@@ -245,7 +257,7 @@ header nav img {
 /* Our Agenda */
 
 .agenda-section {
-    background-color: rgb(245, 250, 228);
+    background-color: rgba(197, 197, 197, 0.3);
 }
 
 .agenda {
@@ -312,9 +324,6 @@ header nav img {
 .emperience-div-img img:hover {
     box-shadow: 2px 1px 7px 0px rgba(49, 49, 49, 0.75);
 }
-
-
-
 
 
 .experience-div-content {
