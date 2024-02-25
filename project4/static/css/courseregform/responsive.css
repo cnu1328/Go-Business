@@ -1,25 +1,8 @@
-/* Main */
-
-/* First Section */
-
-@media screen and (max-width: 1080px) {
-
-    .first-section .content h1 {
-        font-size: 45px;
-    }
-    
-    .first-section .content p {
-        font-size: 25px;
-    }
-
-    .img {
-        width: 500px;
-    }
-}
 
 
 @media screen and (max-width: 980px) {
 
+    /* First Section */
     .first-section .content h1 {
         font-size: 38px;
     }
@@ -28,105 +11,36 @@
         font-size: 20px;
     }
 
-    .img {
-        width: 400px;
-    }
 }
 
+@media screen and (max-width: 780px) {
 
-@media screen and (max-width: 810px) {
-    .img {
-        width: 250px;
-    }
-} 
-
-
-@media screen and (max-width: 645px) {
-
-    .first-section .content {
-        flex-direction: column-reverse;
-        gap: 50px;
-    }
+     /* First Section */
 
     .first-section .content h1 {
-        font-size: 40px;
         text-align: center;
+        font-size: 25px;
     }
     
     .first-section .content p {
-        font-size: 25px;
-        margin-top: 5px;
         text-align: center;
-    }
-
-    .img {
-        margin-top: 30px;
-        width: 100%;
-    }
-}
-
-@media screen and (max-width: 350px) {
-    .first-section .content h1 {
-        font-size: 30px;
-    }
-
-    .first-section .content p {
         font-size: 17px;
     }
-}
 
-/* Second-section */
+    /* Second Section */
 
-@media screen and (max-width: 1080px) {
-
-    .form {
-        width: 500px;
-    }
-
-    .feature {
-        width: 300px;
-    }
-}
-
-
-@media screen and (max-width: 850px) {
-
-    .form-content {
+    .second-section .form-content {
         flex-direction: column;
-        gap: 30px;
     }
 
-    .form {
-        width: 90%;
-    }
+    /* Feature Cards */
 
     .feature {
-        width: 200px;
-    }
-}
-
-@media screen and (max-width: 330px) { 
-    .feature .feature-card .icon i {
-        font-size: 40px;
+        grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
     }
 
-    .feature-card {
-        gap: 20px;
-    }
+    /* Employee Section */
 
-    .note {
-        font-size: 14px;
-    }
-    
-    .break {
-        margin: 40px auto;
-    }
-}
-
-
-/* Employ Section */
-
-@media screen and (max-width: 770px) {
     .employ-div {
         flex-direction: column;
     }
@@ -134,56 +48,15 @@
     .employ-div-content h1 {
         font-size: 30px;
     }
-}
 
+    /* Agenda Section */
 
-@media screen and (max-width: 330px) {
-    
-    .employ-div-img {
-        width: 100%;
-    }
-
-    .employ-div-img img {
-        width: 100%;
-    }
-
-    .employ-div-content h1 {
-        font-size: 25px;
-    }
-
-    .employ-div-content p {
-        font-size: 15px;
-    }
-}
-
-
-/* Our agenda */
-
-
-@media screen and (max-width: 770px) {
     .agenda h1 {
         font-size: 30px;
     }
-}
 
+    /* Experience Section */
 
-
-@media screen and (max-width: 330px) {
-    
-    .agenda h1 {
-        font-size: 25px;
-    }
-
-    .agenda p {
-        font-size: 14px;
-    }
-}
-
-
-/* Experience Section */
-
-
-@media screen and (max-width: 770px) {
     .experience-div {
         flex-direction: column;
     }
@@ -191,38 +64,23 @@
     .experience-div-content  h1 {
         font-size: 30px;
     }
-}
 
-@media screen and (max-width: 330px) {
     
-    .experience-div {
-        gap: 20px;
-    }
-
-    .emperience-div-img {
-        width: 100%;
-    }
-
-    .eemperience-div-img img {
-        width: 100%;
-    }
-
-    .experience-div-content h1 {
-        font-size: 25px;
+    .emperience-div-img img {
+        box-shadow: 2px 1px 7px 0px rgba(49, 49, 49, 0.75);
     }
 
     .experience-detail i {
-        font-size: 25px;
+        font-size: 22px;
     }
 
     .experience-detail p {
-        font-size: 15px;
+        font-size: 18px;
     }
-}
 
-/* Tools Covered */
 
-@media screen and (max-width: 770px) {
+    /* Tools Covered */
+
     .tools-covered  h1 {
         font-size: 30px;
     }
@@ -230,9 +88,7 @@
     .join-button-div  h1 {
         font-size: 23px;
     }
-}
 
-@media screen and (max-width: 500px) {
     .tools-div-detail-icon i {
         font-size: 40px;
     }
@@ -245,14 +101,92 @@
         grid-template-columns: repeat(auto-fill, minmax(100px, 1fr));
     }
 
-    .join-button-div  h1 {
-        font-size: 18px;
-    }
 }
 
 
+@media screen and (max-width: 480px) {
 
-@media screen and (max-width: 330px) {
+     /* First Section */
+
+    .first-section .content {
+        flex-direction: column-reverse;
+        gap: 50px;
+    } 
+
+    /* Second Section */
+
+    .feature-card .icon i {
+        font-size: 40px;
+    }
+
+    .feature-card {
+        width: 200px;
+    }
+
+    /* Employ Section */
+
+    .employ-div-img {
+        width: 100%;
+    }
+
+    .employ-div-img img {
+        width: 100%;
+    }
+
+    .employ-div-content {
+        width: 100%;
+    }
+
+    .employ-div-content h1 {
+        font-size: 25px;
+    }
+
+    .employ-div-content p {
+        font-size: 16px;
+    }
+
+    /* Agenda Section */
+
+    .agenda h1 {
+        font-size: 25px;
+    }
+
+    .agenda p {
+        font-size: 16px;
+    }
+
+    /* Experience Section */
+
+    .experience-div {
+        gap: 20px;
+    }
+
+    .emperience-div-img {
+        width: 100%;
+    }
+
+    .emperience-div-img img {
+        width: 100%;
+    }
+
+    .experience-div-content {
+        width: 100%;
+    }
+    
+    .experience-div-content h1 {
+        font-size: 25px;
+    }
+
+    .experience-detail i {
+        font-size: 25px;
+    }
+
+    .experience-detail p {
+        font-size: 15px;
+    }
+
+    /* Tools covered */
+
     .tools-covered  h1 {
         font-size: 25px;
     }
@@ -261,4 +195,3 @@
         font-size: 15px;
     }
 }
-

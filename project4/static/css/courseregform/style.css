@@ -4,12 +4,12 @@
     --main-bg-color: #2874f0;
 }
 
-
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
     font-family: sans-serif;
+    /* font: 62.5% / 1; */
 }
 
 
@@ -38,10 +38,14 @@ header nav img {
     width: 90%;
     margin: auto;
     display: flex;
-    justify-content: space-around;
+    justify-content: center;
     align-items: center;
-    margin: auto;
     padding: 10px 0;
+    flex-wrap: wrap;
+}
+
+.first-section .content > div {
+    flex: 1;
 }
 
 .first-section .content h1 {
@@ -55,8 +59,8 @@ header nav img {
     font-size: 30px;
 }
 
-.img {
-    width: 600px;
+.first-section .content-img .img {
+    width: 100%;
 }
 
 .blue {
@@ -78,114 +82,117 @@ header nav img {
     margin: 30px 0;
 }
 
-.form-content {
+.second-section .form-content {
+    width: 90%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: center;
     align-items: center;
+    margin: auto;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
-.form {
-    width: 600px;
+.second-section .form-content > div {
+    flex: 1;
+}
+
+.Sri-form {
+    width: 100%;
     padding: 20px;
     border-radius: 10px;
     border: 1px solid rgb(67, 66, 66);
     box-shadow: 2px 1px 7px 0px rgba(49, 49, 49, 0.75);
 }
 
-.form label, 
-.form select,
-.form input {
+.Sri-form label, 
+.Sri-form select,
+.Sri-form input {
     width: 100%;
     margin: auto;
     display: block;
 }
 
-.form select,
-.form input {
+.Sri-form select,
+.Sri-form input {
     padding: 6px;
     margin-bottom: 15px;
     border-radius: 8px;
     border: 1px solid rgb(137, 137, 137);
 }
 
-.form select:focus,
-.form input:focus {
-    -webkit-box-shadow: 0px 0px 11px 0px rgba(79,198,214,1);
-    -moz-box-shadow: 0px 0px 11px 0px rgba(79,198,214,1);
-    box-shadow: 0px 0px 11px 0px rgba(79,198,214,1);
+.Sri-form select:focus,
+.Sri-form input:focus {
+    -webkit-box-shadow: 0px 0px 5px 0px rgba(79,198,214,1);
+    -moz-box-shadow: 0px 0px 5px 0px rgba(79,198,214,1);
+    box-shadow: 0px 0px 5px 0px rgba(79,198,214,1);
 }
 
-.form h4 {
+.Sri-form h4 {
+    font-size: 25px;
     color: rgb(30, 140, 190);
     text-decoration: underline;
     text-align: center;
     margin-top: 10px;
 }
 
-.form label {
+.Sri-form label {
     font-size: 16px;
     font-weight: 400;
 }
 
-.form .btn {
+.Sri-form .btn {
+    background-color: rgb(0, 200, 255);
     font-size: 18px;
     font-weight: bold;
     width: 150px;
+    padding: 8px;
+    border: none;
+    border-radius: 10px;
+    float: right;
+    cursor: pointer;
+    color: rgb(53, 53, 53);
 }
 
-.form .btn {
-    float: right;
-    box-shadow: 0px 0px 14px 0px rgb(159, 160, 161);
+.Sri-form .btn:hover {
+    box-shadow: 0px 0px 14px 0px rgba(159, 160, 161, 0.6);
 }
 
 /* Feature Cards */
 
 .feature {
-    width: 400px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    width: 100%;
+    display: grid;
     gap: 50px;
+    place-items: center;
+    
 }
 
 .feature-card {
+    width: 250px;
     display: flex;
-    justify-content: center;
-    align-items: center;
-    gap: 30px;
+    gap: 50px;
 }
 
-.feature-card .icon  {
-    width: 80px;
-}
 
 .feature-card .icon i {
     font-size: 60px;
-    font-weight: bold;
+    
 }
 
-.feature-card .description {
-    flex: 1; 
-}
 
-.feature-card .description h4 {
-    margin-bottom: 0;
-    margin-top: 15px;
-    font-weight: bold;
-}
 
+.feature-card .description h4,
 .feature-card .description h5 {
-    margin-bottom: 0;
-    margin-top: 15px;
+    margin: 0;
     font-weight: bold;
 }
-
-.feature-card .description p {
-    font-weight: 400;
-} 
 
 .rupee {
-    padding-left: 15px;
+    padding: 0px 10px;
+}
+
+.icon-users-div i {
+    font-size: 48px !important;
 }
 
 
@@ -194,7 +201,10 @@ header nav img {
     margin: 60px auto;
     border-radius: 50px;
     border: 2px solid rgb(91, 88, 88);
-    
+}
+
+.note {
+    text-align: center;
 }
 
 
@@ -226,6 +236,7 @@ header nav img {
 }
 
 .employ-div-content h1 {
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
     color:rgb(67, 66, 66);
@@ -245,7 +256,11 @@ header nav img {
 .employ-div-content p {
     text-align: justify;
     text-indent: 40px;
-    font-size: 17px;
+    font-size: 18px;
+}
+
+.employ-div-content p:nth-child(3) {
+    margin-top: 15px;
 }
 
 .employ-div-img img {
@@ -266,6 +281,7 @@ header nav img {
 }
 
 .agenda h1 {
+    font-size: 35px;
     padding-top: 30px;
     font-weight: bold;
     text-align: center;
@@ -295,7 +311,8 @@ header nav img {
 }
 
 .up{
-    margin-top: -20px;
+    margin-top: 0;
+    margin-bottom: 25px;
 }
 
 /* Experience Section */
@@ -321,9 +338,6 @@ header nav img {
     border-radius: 10px;
 }
 
-.emperience-div-img img:hover {
-    box-shadow: 2px 1px 7px 0px rgba(49, 49, 49, 0.75);
-}
 
 
 .experience-div-content {
@@ -331,6 +345,7 @@ header nav img {
 }
 
 .experience-div-content h1 {
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
     color:rgb(67, 66, 66);
@@ -350,7 +365,7 @@ header nav img {
 .experience-detail {
     display: flex;
     align-items: center;
-    margin: 4px 0;
+    margin-top: 10px;
 }
 
 .experience-detail i {
@@ -361,7 +376,6 @@ header nav img {
     font-weight: 500;
     font-size: 20px;
     padding-left: 10px;
-    padding-top: 15px;
 }
 
 
@@ -389,11 +403,11 @@ header nav img {
 }
 
 .tools-div-detail-icon img {
-    width: 80px;
+    width: 60px;
 }
 
 .tools-div-detail-icon i {
-    font-size: 80px;
+    font-size: 60px;
 }
 
 
@@ -404,6 +418,7 @@ header nav img {
 }
 
 .tools-covered h1 {
+    font-size: 35px;
     font-weight: bold;
     text-align: center;
     color:rgb(67, 66, 66);
@@ -434,7 +449,7 @@ header nav img {
     font-weight: bold;
     color:rgb(91, 88, 88);
     text-align: center;
-    font-size: 30px;
+    font-size: 25px;
 }
 
 .join-button-div button a {
