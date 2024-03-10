@@ -1,0 +1,155 @@
+@media screen and (max-width: 980px) {
+   
+    /* How It Works */
+
+    .how-it-works-div-parent {
+        width: 100%;
+    }
+
+    .dotted-lines {
+        display: none;
+    }
+
+    /* FAQ Section */
+
+    .faq-block {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    /* Review Section */
+    .review {
+        width: 60%;
+    }
+}
+
+@media screen and (max-width: 780px) {
+
+    /* Title Section */
+    .title-section {
+        padding-top: 40px;
+    }
+
+    .title-div {
+        flex-direction: column-reverse;
+        gap: 20px;
+    }
+
+    /* How It Works */
+
+   
+    .how-it-works-div {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
+    .how-it-works-div-parent {
+        width: 90%;
+    }
+
+    /* How it is different */
+
+    .learn-different-div {
+        width: 80%;
+    }
+
+    /* FAQ SECTionn */
+
+    .faq-sub-block {
+        width: 220px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+
+    /* Title Section */
+    .title-detail-div h1 {
+        font-size: 30px;
+    }
+    
+    .title-detail-div h3 {
+        font-size: 25px;
+    }
+
+    /* How it works */
+
+    .how-it-works-div {
+       flex-direction: column;
+    }
+
+    .image-container-div {
+        display: flex;
+        justify-content: center;
+    }
+
+    .how-it-works-img {
+        width: 70%;
+    }
+
+    .how-it-works-img1 {
+        width: 70%;
+    }
+
+    /* Benefits Section */
+
+    .referral-benefits-div {
+        flex-direction: column;
+    }
+
+    .referral-benefits-div-title h1 {
+        text-align: center;
+    }
+
+    .referral-benefits {
+        padding: 40px 0;
+    }
+
+    .referral-benefits-title i {
+        font-size: 20px;
+    }
+
+    .referral-benefits-title h3 {
+        font-size: 18px;
+    }
+
+    .referral-benefits-div-title h1 {
+        font-size: 25px;
+    }
+
+    /* How it is different */
+
+    .learn-different-div {
+        width: 100%;
+        padding: 10px;
+    }
+
+    .landscape-img {
+        display: none;
+    }
+
+    .mobile-view-img {
+        display: block;
+    }
+
+    /* FAQ Section */
+
+    .faq-block {
+        margin: auto;
+        grid-template-columns: repeat(1, 1fr);
+    }
+
+    .faq-sub-block {
+        margin: auto;
+        width: 90%;
+    }
+
+    /* Review Section */
+
+    .review {
+        width: 90%;
+    }
+
+    /* Call to action */
+    .join-button-div h1 {
+        font-size: 18px;
+    }
+}

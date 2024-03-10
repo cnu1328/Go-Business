@@ -1,0 +1,433 @@
+@import url('https://fonts.googleapis.com/css2?family=Cherry+Swash&family=Chivo:ital,wght@0,100..900;1,100..900&family=Edu+TAS+Beginner:wght@600&family=Playpen+Sans:wght@600&family=Poppins:ital,wght@0,300;0,400;1,200;1,300;1,400&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Chivo", sans-serif;
+}
+
+/* Title Section */
+
+.title-section {
+    background-image: radial-gradient(circle, #009a9b, #08a49c, #1cad9b, #2fb699, #43bf96);
+}
+
+.title-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.title-img-div {
+    flex: 1;
+}
+
+.title-img-div img {
+    width: 100%;
+}
+
+
+.title-detail-div {
+    flex: 1;
+}
+
+.title-detail-div h1 {
+    font-size: 40px;
+    color: #ffff;
+    text-align: center;
+}
+
+.title-detail-div h1 span {
+    color: rgb(139, 252, 2);
+}
+
+
+
+.title-detail-div h3 {
+    font-size: 30px;
+    text-align: center;
+    color: ghostwhite;
+}
+
+.title-detail-div h3 .rupee {
+    font-size: 40px;
+    color: rgb(248, 252, 2);;
+}
+
+.title-detail-div .title-para {
+    font-size: 19px;
+    width: 80%;
+    text-align: center;
+    margin: auto;
+    margin-top: 30px;
+    color: rgb(45, 40, 40);
+}
+
+/* Referral Button */
+
+.referral-button {
+    padding: 15px;
+    border-radius: 8px; 
+    border: none;
+    cursor: pointer;
+    background-color: #de5916;
+    color: white;
+    display: block;
+    margin: auto;
+    margin-top: 30px;
+}
+
+.referral-button:hover {
+    background-color: #EE5F19;
+}
+
+/* How It Works Section */
+ 
+.how-it-works-section {
+    background-color: #63cfa2;
+}
+
+.how-it-works-div-parent {
+    width: 80%;
+    margin: auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+.how-it-works-section h1 {
+    color: rgb(53, 47, 47);
+    font-size: 35px;
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.how-it-works-div {
+    display: flex;
+    justify-content: space-around;
+    margin: auto;
+}
+
+.how-it-works-img {
+	width: 100%;
+}
+
+.how-it-works-img1 {
+    width: 90%;
+}
+
+.how-it-works-img2 {
+    width: 90%;
+}
+
+.image-div p {
+    margin: 30px 0 0 0;
+    font-size: 15px; 
+    font-weight: bold;
+}
+
+.image-div {
+    background: #e6e6e6;
+    text-align: center;
+    border-radius: 10px;
+    box-shadow: 0 0 17px #ccc;
+    position: relative;
+    padding: 20px;
+    min-height: 200px;
+    min-width: 230px;
+    box-shadow: 4px 6px 17px 1px rgb(79, 146, 124);
+}
+
+/* Referral Benefits */
+
+.referral-benefits {
+    background-image: linear-gradient(to right top, #009e60, #009b65, #009869, #00956c, #00926f, #008f72, #008d74, #008a76, #008778, #008479, #00807a, #007d7b);
+    padding: 80px 0;
+
+}
+
+.referral-benefits-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 30px;
+    width: 90%;
+    margin: auto;
+}
+
+
+
+.referral-benefits-div-title h1 {
+    font-size: 35px;
+    color: #ffff;
+}
+
+.referral-benefits-title {
+    display: flex;
+    gap: 20px;
+}
+
+.referral-benefits-div-content {
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.referral-benefits-title i {
+    font-size: 28px;
+    background-color: #eee;
+    padding: 8px;
+    border-radius: 8px;
+    margin-top: -5px;
+    color: rgb(75, 72, 72);
+    margin: auto 0;
+}
+
+.referral-benefits-title h3 {
+    color: #ffff;
+    font-size: 20px;
+    font-weight: 100;
+}
+
+
+
+/* How it is Different to learn */
+
+.learn-different-section {
+    background-color: #28218D;
+    padding: 0;
+    margin: 0;
+}
+
+.learn-different-div {
+    width: 65%;
+    margin: auto;
+}
+
+.learn-different-div > img {
+    width: 100%;
+}
+
+.mobile-view-img {
+    display: none;
+}
+
+/* Reviews Section */
+
+.reviews-section {
+    background-color: #FBEDD6;
+}
+
+.reviews-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+
+.review-carousel {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+.review {
+    text-align: center;
+    margin-bottom: 10px;
+    width: 40%;
+}
+
+.reviewer-name {
+    font-size: 28px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+  
+.review-content {
+    font-size: 19px;
+    margin-bottom: 10px;
+}
+
+.carousel-navigation, .dots {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 40px;
+}
+
+.dots {
+    padding-bottom: 10px;
+}
+
+.dots i {
+    margin-right: 4px;
+}
+
+.reviews-container div h1 {
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 52px;
+    letter-spacing: 0.02em;
+    text-align: center;
+
+}
+
+.reviews-container div h1 span {
+   
+    font-size: 35px;
+    font-weight: 700;
+    line-height: 30px;
+    letter-spacing: 0.02em;
+   
+    color: #fb9207;
+}
+.review-para {
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 30px;
+    padding-left: 36px;
+    color: #133240;
+    margin-bottom: 50px;
+}
+
+.carousel-navigation button{
+    position: relative;
+    display: inline-block;
+    margin: 15px;
+    padding: 15px 30px;
+    text-align: center;
+    font-size: 16px;
+    letter-spacing: 1px;
+    text-decoration: none;
+    color: rgb(42, 40, 40);
+    background: #f6a418;
+    border:none;
+    border-radius: 50px;
+    cursor: pointer;
+    transition:ease-out 0.5s;
+}
+
+
+/* slide 1 */
+
+.carousel-navigation .btn-slide-1{
+    box-shadow: inset 0 0 0 0 #303439;
+}
+
+.carousel-navigation .btn-slide-1:hover{
+    box-shadow: inset 200px 0 0 0 #303439;
+    color: white;
+}
+
+.carousel-navigation .btn-slide-1:hover i {
+    transform: scale(1.5);
+}
+
+
+
+/* slide 2 */
+
+.carousel-navigation .btn-slide-2{
+    box-shadow: inset 0 0 0 0 #303439;
+}
+
+.carousel-navigation .btn-slide-2:hover{
+    box-shadow: inset -200px 0 0 0 #303439;
+    color: white;
+}
+
+.carousel-navigation .btn-slide-2:hover i {
+    transform: scale(1.5);
+}
+
+
+.fa-star{
+    color: #F5AB00;
+}
+
+
+
+
+/* FAQ Section */
+
+.faq-section {
+    background-color: #ece5da;
+    padding-bottom: 50px;
+    padding-top: 100px;
+}
+
+.faq-section h1 {
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 550;
+}
+
+.faq-section .para {
+    margin: 10px 0 50px 0;
+    font-size: 1rem;
+    text-align: center;
+    color: #737373;
+}
+
+.faq-block {
+    display: grid;
+    gap: 10px;
+    margin: 0 100px 0 100px;
+    justify-content: center;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+.faq-sub-block {
+    padding: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100px;
+    width: 300px;
+    border: 1px solid #737373;
+    border-radius: 10px
+}
+
+
+
+.faq-sub-block:hover {
+    box-shadow: 1px 2px 6px 1px rgba(53, 49, 49, 0.48);
+}
+
+.faq-sub-block i {
+    padding-right: 20px;
+    color:#5cc0ff;
+}
+
+.faq-block-content p:first-child {
+    font-weight: 700;
+    margin-bottom: 10px;
+}
+
+.fa1-block-content p:last-child {
+    font-weight: 500;
+    color: #737373;
+}
+
+
+
+/* Call to action */
+
+.join-button-div {
+    width: 90%;
+    margin: 50px 30px auto auto;
+}
+
+
+
+.join-button-div h1 {
+    font-weight: bolder;
+    color:rgb(60, 81, 116);
+    text-align: center;
+    font-size: 25px;
+}
+
+
+
