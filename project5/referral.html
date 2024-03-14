@@ -5,12 +5,64 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     
+    <link rel="shortcut icon" href="./images/Goo Businesses (1).png" type="image/png">
+
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="stylesheet" href="./css/lmsheader/style.css">
+    <link rel="stylesheet" href="./css/lmsheader/responsive.css">
     <link rel="stylesheet" href="./referral.css">
     <link rel="stylesheet" href="./referralResponse.css">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" /> <!-- For icons -->
     
 </head>
 <body>
+
+    <div class="pogress" id="pogressID"></div>
+
+    <header>
+
+        <div class="logo">
+            <img src="./images/Goo Businesses (1).png" height="73px">
+        </div>
+
+        <nav>
+
+            <div>
+                <ul>
+                    <li><a href="/">Home</a></li>
+                    <li><a href="/about">About</a></li>
+                    <li><a href="/contact">Contact</a></li>
+                    <li><a href="/whyus">Why us?</a></li>
+                </ul>
+            </div>
+
+            <div>
+                <form class="form" action="/searching" method="post">
+                    <div class="search">
+                        <input class="form-ele1"  type="text" id="searchbarID" name="seachbar" placeholder="Search here..." width="20vw">
+                    </div>
+                    <div class="btn">
+                        <button class="bttn" type="submit">Search</button>
+                    </div>
+                </form>
+            </div>
+            
+
+            
+
+        <!-- <a href="/searching"><div class="navallproduct">Services</div></a>
+        <a href="/termsandconditions"><div class="navallproduct">Terms & Conditions</div></a>
+        <a href="/CancellationRefundPolicy"><div class="navallproduct">Cancellation/Refund Policy</div></a>
+        <a href="/courses"><div class="navallproduct">Courses</div></a>
+        <a href="/privacypolicy"><div class="navallproduct">Privacy Policy</div></a> -->
+
+        </nav>
+
+        <a href="/freetrail" class="freeTrl bblink">Get Your<br>Free Trial<br>up to $30</a>
+    </header>
+
     <main>
 
         <section class="title-section">
@@ -27,7 +79,7 @@
                         </span>
                     </h1>
     
-                    <h3>Get <span class="rupee">₹50</span> each time you do</h3>
+                    <h3>Get <span class="rupee">₹100</span> each time you do</h3>
     
                     <p class="title-para">
                         It's easier than ever to invite friends to Goo Business. 
@@ -52,30 +104,26 @@
                 <div class="how-it-works-div">
                     <div class="image-container-div">
                         <div class="image-div">
-                            <img src="images/invite.png" alt="Invite Friends" class="how-it-works-img">
+                            <img src="images/refer.png" alt="Invite Friends" class="how-it-works-img">
                             <p>Share with your Friends</p>
                         </div>
                     </div>
     
-                    <div class="dotted-lines">
-                        <img src="images/dotted way.png" alt="Dotted Line" class="how-it-works-img">
-                    </div>
+                    
             
                     <div class="image-container-div">
                         <div class="image-div">
-                            <img src="images/rupee.png" alt="Invite Friends" class="how-it-works-img2">
+                            <img src="images/discount.png" alt="Invite Friends" class="how-it-works-img">
                             <p>Give her to ₹50 Discount</p>   
                         </div>
                     </div>
     
-                    <div class="dotted-lines">
-                        <img src="images/dotted way1.png" alt="Dotted Line" class="how-it-works-img">
-                    </div>
+                    
             
                     <div class="image-container-div">
                         <div class="image-div">
-                            <img src="images/dollar.png" alt="Invite Friends" class="how-it-works-img1">
-                            <p>Get ₹50 for every <br>
+                            <img src="images/money.png" alt="Invite Friends" class="how-it-works-img">
+                            <p>Get ₹100 for every <br>
                                 registration</p>
                         </div>
                     </div>
@@ -94,7 +142,7 @@
                 <div class="referral-benefits-div-content">
                     <div class="referral-benefits-title">
                         <i class="fa-solid fa-gift"></i>
-                        <h3>Get ₹50 Instantly.</h3>
+                        <h3>Get ₹100 Instantly.</h3>
                     </div>
 
                     <div class="referral-benefits-title">
@@ -124,6 +172,227 @@
             </div>
         </section>
 
+        <!-- Course Features -->
+
+        <section class="course-features">
+            <div class="course-features-div">
+                <h1>Our Course Features</h1>
+
+                <div class="course-features-items">
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-solid fa-graduation-cap"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Course Certification</p>
+                        </div>
+                    </div>
+
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-solid fa-headset"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Career Counseling</p>
+                        </div>
+                    </div>
+
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-solid fa-brain"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Real-World Case Studies</p>
+                        </div>
+                    </div>
+
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-solid fa-people-robbery"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Soft Skills Training</p>
+                        </div>
+                    </div>
+
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-solid fa-road"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Job Placement Assistance</p>
+                        </div>
+                    </div>
+
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-solid fa-industry"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Industry Insights Shared</p>
+                        </div>
+                    </div>
+
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-regular fa-circle-user"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Mock Interviews</p>
+                        </div>
+                    </div>
+
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-solid fa-person-rays"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Interview Preparation</p>
+                        </div>
+                    </div>
+
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-solid fa-users-viewfinder"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Community Support and Collaboration</p>
+                        </div>
+                    </div>
+
+                    <div class="course-feature-item">
+                        <div class="course-feature-icon">
+                            <i class="fa-solid fa-toolbox"></i>
+                        </div>
+        
+                        <div class="course-feature-desc">
+                            <p>Access to Tools and Software</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Tools Covered -->
+        
+        <section class="tools-covered-section">
+            <div class="tools-covered">
+                <h1>  Tools & Technologies </h1>
+        
+                <div class="tools-list">
+
+                    <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="images/html.png" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>HTML</p>
+                        </div>
+                    </div>
+
+                    <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="images/css.png" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>CSS</p>
+                        </div>
+                    </div>
+
+                    <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="images/js.png" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>JavaScript</p>
+                        </div>
+                    </div>
+
+                    <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="images/react.png" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>React</p>
+                        </div>
+                    </div>
+
+                    <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="images/node.png" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>Node.js</p>
+                        </div>
+                    </div>
+
+                    <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="images/mongo.png" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>MongoDB</p>
+                        </div>
+                    </div>
+
+                    <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="images/git.png" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>Git</p>
+                        </div>
+                    </div>
+
+                    <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="images/github.png" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>GitHub</p>
+                        </div>
+                    </div>
+
+                    <!-- <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="{% static 'img/referral/html.png' %}" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>Express</p>
+                        </div>
+                    </div>
+
+                    <div class="specific-tool">
+                        <div class="specific-tool-img">
+                            <img src="{% static 'img/referral/html.png' %}" alt="HTML">
+                        </div>
+        
+                        <div class="specific-tool-img-desc">
+                            <p>HTML</p>
+                        </div>
+                    </div> -->
+                </div>
+            </div>
+        </section>
+
         <!-- Review Section -->
 
         <section class="reviews-section">
@@ -134,10 +403,10 @@
                     <p class="review-para">Don’t take our word for it. Trust our customers</p>
                 </div>
             </div>
-
+    
             <div class="review-carousel">
               <div class="review">
-                <h3 class="reviewer-name">Amit Patel</h3>
+                <h3 class="reviewer-name">Srinivas Dharpally</h3>
                 <p class="review-content">The static website service exceeded my expectations! The design was sleek and professional.</p>
                 <div class="star-rating">
                   <i class="fa-solid fa-star"></i>
@@ -148,7 +417,7 @@
                 </div>
               </div>
               <div class="review">
-                <h3 class="reviewer-name">Neha Kapoor</h3>
+                <h3 class="reviewer-name">Paritosh</h3>
                 <p class="review-content">The static website beautifully showcased my business. It's a great investment for online presence.</p>
                 <div class="star-rating">
                   <i class="fa-solid fa-star"></i>
@@ -157,7 +426,7 @@
                 </div>
               </div>
               <div class="review">
-                <h3 class="reviewer-name">Raj Singh</h3>
+                <h3 class="reviewer-name">Pranjal Pagar</h3>
                 <p class="review-content">I highly recommend the static website services. It's user-friendly and visually appealing.</p>
                 <div class="star-rating">
                   <i class="fa-solid fa-star"></i>
@@ -167,14 +436,14 @@
                 </div>
               </div>
               <div class="review">
-                <h3 class="reviewer-name">Deepika Mehta</h3>
+                <h3 class="reviewer-name">Moumitha Roy</h3>
                 <p class="review-content">The static website elevated my brand's online presence. Great service and attention to detail!</p>
                 <div class="star-rating">
                   <i class="fa-solid fa-star"></i>
                 </div>
               </div>
               <div class="review">
-                <h3 class="reviewer-name">Rahul Sharma</h3>
+                <h3 class="reviewer-name">Rahul Sirrola</h3>
                 <p class="review-content">Impressed with the quality of service. The static website added a professional touch to my business.</p>
                 <div class="star-rating">
                   <i class="fa-solid fa-star"></i>
@@ -184,7 +453,7 @@
                 </div>
               </div>
               <div class="review">
-                <h3 class="reviewer-name">Priya Gupta</h3>
+                <h3 class="reviewer-name">Khushbu Kumari</h3>
                 <p class="review-content">Fantastic work on the static website! It perfectly reflects my brand's identity and values.</p>
                 <div class="star-rating">
                   <i class="fa-solid fa-star"></i>
@@ -193,7 +462,7 @@
                 </div>
               </div>
               <div class="review">
-                <h3 class="reviewer-name">Karan Patel</h3>
+                <h3 class="reviewer-name">Parushuram Erra</h3>
                 <p class="review-content">The static website design is exceptional. It has significantly boosted my online presence.</p>
                 <div class="star-rating">
                   <i class="fa-solid fa-star"></i>
@@ -202,14 +471,14 @@
                   <i class="fa-solid fa-star"></i>
                 </div>
               </div>
-              <!-- Repeat the above review structure three more times -->
+              
             </div>
-
+    
             <div class="carousel-navigation">
                 <button type="button" class="prev-button btn-slide-1" id="leftBtn"><i class="fa-solid fa-chevron-left"></i></button>
                 <button type="button" class="next-button btn-slide-2" id ="right"><i class="fa-solid fa-chevron-right"></i></button> 
             </div>
-
+    
             <div class="dots">
                 <i class="fa-solid fa-circle d" id="d1" style="color: #b19361;"></i>
                 <i class="fa-solid fa-circle d" style="color: #b19361;"></i>
@@ -315,6 +584,183 @@
 
     </main>
     
+    <!-- Footer -->
+
+    <footer class="footer" style="background-image: url('../static/img/referral/footer-bg.png')">
+
+        <div class="footer-top section">
+          <div class="container grid-list">
+    
+            <!-- Company Contacts -->
+            <div class="footer-brand">
+    
+              <a href="#" class="logo">
+                <img src="images/Goo Businesses (1).png" width="100"  alt="Goo Business logo">
+              </a>
+    
+              <p class="footer-brand-text">
+                Join us on the journey to success, where your vision becomes our mission. Let's shape the future of your business together.
+              </p>
+    
+              <div class="wrapper">
+                <span class="span">Add:</span>
+    
+                <address class="address">Mathabhanga, Cooch Behar, West Bengal 736146, IN</address>
+              </div>
+    
+              <div class="wrapper">
+                <span class="span">Call:</span>
+    
+                <a href="tel:+91xxxxxxxx" class="footer-link">+91xxxxxxxx</a>
+              </div>
+    
+              <div class="wrapper">
+                <span class="span">Email:</span>
+    
+                <a href="contact@goo-business.com" class="footer-link">contact@goo-business.com</a>
+              </div>
+    
+            </div>
+    
+            <!-- Company Links -->
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Online Platform</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">About</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Courses</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Instructor</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Events</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Instructor Profile</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Purchase Guide</a>
+              </li>
+    
+            </ul>
+
+            <!-- More Urls of the company -->
+    
+            <ul class="footer-list">
+    
+              <li>
+                <p class="footer-list-title">Links</p>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Contact Us</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Gallery</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">News & Articles</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">FAQ's</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Sign In/Registration</a>
+              </li>
+    
+              <li>
+                <a href="#" class="footer-link">Coming Soon</a>
+              </li>
+    
+            </ul>
+    
+            <!-- Email Contact -->
+            <div class="footer-list">
+    
+              <p class="footer-list-title">Contacts</p>
+    
+              <p class="footer-list-text">
+                Enter your email address to register to our newsletter subscription
+              </p>
+    
+              <form action="" class="newsletter-form">
+                <input type="email" name="email_address" placeholder="Your email" required class="input-field">
+    
+                <button type="submit" class="btn has-before">
+                  <span class="span">Subscribe</span>
+    
+                  <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
+                </button>
+              </form>
+    
+              <ul class="social-list">
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fa-brands fa-facebook"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fa-brands fa-linkedin"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fa-brands fa-instagram"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fa-brands fa-x-twitter"></i>
+                  </a>
+                </li>
+    
+                <li>
+                  <a href="#" class="social-link">
+                    <i class="fa-brands fa-youtube"></i>
+                  </a>
+                </li>
+    
+              </ul>
+    
+            </div>
+    
+          </div>
+        </div>
+    
+        <!-- Copy right Description -->
+        <div class="footer-bottom">
+          <div class="container">
+    
+            <p class="copyright">
+              Copyright © by Goo Business 2024 <a href="#" class="copyright-link">Goo business Team</a>
+            </p>
+    
+          </div>
+        </div>
+    
+    </footer>
+    
+    <div style="height: 10px;background-color: #2874f0;"></div>
 
     <script src="referral.js"></script>
     

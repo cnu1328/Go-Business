@@ -6,6 +6,11 @@
         width: 100%;
     }
 
+    .how-it-works-div {
+        flex-wrap: wrap;
+        gap: 20px;
+    }
+
     .dotted-lines {
         display: none;
     }
