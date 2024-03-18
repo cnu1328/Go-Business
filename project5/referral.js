@@ -35,14 +35,3 @@ nextButton.addEventListener('click', showNextReview);
 
 showReview(currentIndex);
 
-function updateTotalPrice() {
-    var selectedService = document.getElementById("chooseService").value;
-
-    if(selectedService) {
-        var prices = { silver: 15, gold: 74, diamond: 149 };
-        document.getElementById("totalPrice").innerText = "$" + prices[selectedService];
-    } else {
-        document.getElementById("totalPrice").innerText = "";
-    }
-    
-}
