@@ -1,0 +1,294 @@
+/* Dummy Main */
+
+main {
+  height: 400px;
+}
+
+/* header */
+
+.header {
+  display: block;
+  max-width: 90%;
+  padding: 10px 10px;
+  margin: 0px auto;
+  justify-content: space-evenly;
+}
+
+.header ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+  /* background-color: #fff; */
+}
+
+
+.header ul li  {
+  display: block;
+  margin-right: 30px;
+}
+
+.header li a {
+  padding: 10px;
+  text-decoration: none;
+  color: #414155;
+  font-weight: 500;
+}
+
+
+
+/* .header li a:hover,
+.header .menu-btn:hover {
+  background-color: #A6E1FA; 
+  border-radius: 50px;
+  
+} */
+
+.header .logo {
+  display: block;
+  float: left;
+  text-decoration: none;
+}
+
+.header .logo-name {
+  padding: 0 10px;
+}
+
+.menu > li {
+  position: relative;
+  color: #000;
+
+}
+
+.menu > li:hover {
+  color: #000;
+}
+
+.menu > li:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color: #000;
+  visibility: hidden;
+  -webkit-transform: scaleX(0);
+  transform: scaleX(0);
+  -webkit-transition: all 0.3s ease-in-out 0s;
+  transition: all 0.3s ease-in-out 0s;
+}
+
+/* menu */
+
+.menu {
+  font-family: "Google Sans Regular";
+}
+
+.header .menu {
+  clear: both;
+  max-height: 0;
+  transition: max-height 0.2s ease-out;
+}
+
+.nav-link {
+  padding-top: 10px;
+  
+}
+
+/* menu icon */
+
+.header .menu-icon {
+  cursor: pointer;
+  float: right;
+  padding: 28px 20px;
+  position: relative;
+  user-select: none;
+}
+
+.header .menu-icon .navicon {
+  background: #333;
+  display: block;
+  height: 2px;
+  position: relative;
+  transition: background 0.2s ease-out;
+  width: 18px;
+}
+
+.header .menu-icon .navicon:before,
+.header .menu-icon .navicon:after {
+  background: #333;
+  content: "";
+  display: block;
+  height: 100%;
+  position: absolute;
+  transition: all 0.2s ease-out;
+  width: 100%;
+}
+
+.header .menu-icon .navicon:before {
+  top: 5px;
+}
+
+.header .menu-icon .navicon:after {
+  top: -5px;
+}
+
+/* menu btn */
+
+.header .menu-btn {
+  display: none;
+}
+
+.header .menu-btn:checked ~ .menu,
+.header .menu-btn:checked ~ .try-for-free {
+  max-height: 370px;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon {
+  background: transparent;
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:before {
+  transform: rotate(-45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon .navicon:after {
+  transform: rotate(45deg);
+}
+
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:before,
+.header .menu-btn:checked ~ .menu-icon:not(.steps) .navicon:after {
+  top: 0;
+}
+
+/* Button Try For free */
+
+.try-for-free{
+  padding: 10px;
+  width: 120px;
+  border-radius: 10px;
+  border: none;
+  background: #706FE5;
+  font-weight: bold;
+  color: white;
+  cursor: pointer;
+}
+
+
+/* Footer */
+
+footer {
+  width: 90%;
+  display: flex;
+  flex-direction: column;
+  margin: auto;
+  
+}
+
+.footer-div {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+
+}
+
+.footer-about ul {
+  list-style: none;
+}
+
+.footer-about ul li {
+  margin-bottom: 15px;
+}
+
+.footer-about ul li a {
+  text-decoration: none;
+  color: rgb(85, 81, 81);
+}
+
+.footer-about ul li a:hover {
+  color: rgb(58, 187, 149);
+}
+
+.footer-div-1 {
+  margin-top: 40px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.reserved {
+  text-align: center;
+}
+ 
+.reserved i {
+  font-size: 35px;
+  margin-left: 20px;
+  color:rgb(85, 81, 81);
+}
+
+.reserved a {
+  text-decoration: none;
+}
+
+.menu-icon {
+  margin-top: -20px;
+}
+ 
+
+
+@media screen and (max-width: 860px) {
+  .header li {
+    margin-top: 20px;
+  }
+
+}
+
+@media screen and (min-width: 860px) {
+  .header li {
+    float: left;
+  }
+  .header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+  }
+
+  .header .menu {
+    max-height: none;
+  }
+  .header .menu-icon {
+    display: none;
+  }
+
+  
+  
+}
+
+@media (max-width: 1008px) and (min-width: 860px) {
+  .header {
+    font-size: 12px;
+  }
+
+  .header ul li  {
+    margin-right: 15px;
+  }
+}
+
+@media screen and (max-width: 580px) {
+  .footer-div {
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .footer-div {
+    margin: auto;
+  }
+
+  .logo-image {
+    width: 130px;
+  }
+
+  
+}
