@@ -565,10 +565,10 @@ footer {
     font-size: 40px;
   }
 
-  .intro-content h3,
+  /* .intro-content h3,
   .intro-content p{
     text-align: center;
-  }
+  } */
 
   .intro-buttons {
     justify-content: center;
