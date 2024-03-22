@@ -386,6 +386,7 @@ footer {
 }
 
 .feature {
+  margin: auto;
   width: 250px;
 }
 
@@ -639,6 +640,11 @@ footer {
 
   /* News Letter */
 
+  .news-letter-section {
+    /* width: 95%; */
+    margin: 10px;
+  }
+
   .news-letter-image-div {
     flex-direction: column;
   }
@@ -669,5 +675,7 @@ footer {
   .news-letter-form button {
     width: 40%;
   }
+
+
   
 }
