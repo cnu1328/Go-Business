@@ -11,9 +11,14 @@ const passwordInput = document.getElementById("password");
 const confirmPasswordInput = document.getElementById("confirm-password");
 const passwordMismatchError = document.getElementById("password-mismatch-error");
 
+const enableModal = document.getElementById("modal-enable");
+const enable = enableModal.textContent;
+
 // Join Button Click
 joinButton.addEventListener("click", () => {
-    signUpModal.style.display = "block"; 
+
+    if(enable === "false")
+        signUpModal.style.display = "block"; 
 });
 
 // Closing The Modals
@@ -78,4 +83,4 @@ confirmPasswordInput.addEventListener("input", () => {
 });
 
 
-
+// Blur the background
