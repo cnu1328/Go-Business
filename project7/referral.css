@@ -526,6 +526,7 @@ footer {
 /* Explore Courses */
 
 .explore-courses {
+    display: none;
     margin: auto;
     font-family: "Poppins";
 }
@@ -658,6 +659,7 @@ footer {
 /* Review Section */
 
 .review-section {
+  display: none;
   width: 90%;
   margin: 100px auto 100px auto;
 }
@@ -725,6 +727,102 @@ footer {
 }
 
 
+/* Sign up modal */
+
+
+.sign-up-modal {
+  width: 600px;
+  border: 1px solid rgb(68, 63, 63);
+  border-radius: 10px;
+  background-color: #eee;
+  display: none;
+
+  position: absolute;
+  position: fixed;
+  left: 25%;
+  top: 15%;
+}
+
+.sign-up h1 {
+  text-align: center;
+  color:rgb(67, 65, 65);
+  margin-bottom: 50px;
+}
+
+.sign-up form label,
+.sign-up form input {
+  display: block;
+  width: 90%;
+  margin: auto;
+  margin-top: 8px;
+}
+
+.sign-up form input {
+  margin-bottom: 20px;
+  padding: 10px;
+  border-radius: 10px;
+  border: 1px solid #414155;
+  font-size: 16px;
+}
+
+.sign-up form .sign-up-button {
+  display: block;
+  margin: auto;
+  padding: 8px;
+  width: 150px;
+  background-color: #8E54E9;
+  border: none;
+  border-radius: 10px;
+  color: #ffff;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign-up form p {
+  text-align: center;
+}
+
+.sign-up form p span {
+  background: transparent;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.sign-up form p span:hover {
+  text-decoration: underline;
+}
+
+.close-button {
+  position: absolute;
+  top: 5px;
+  right: 5px;
+  border: none;
+  font-size: 18px;
+  font-weight: bold;
+  cursor: pointer;
+}
+
+.close-button:hover {
+  background-color: #565555;
+  border-radius: 6px;
+  color: #fff;
+}
+
+/* .input-eye input {
+  border: none;
+}
+
+.input-eye {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #414155;
+} */
+
+
 
 
 
@@ -735,6 +833,12 @@ footer {
     /* Intro SEction */
     .refer-intro-content h1 {
         font-size: 30px;
+    }
+
+    /* Signup Modal */
+
+    .sign-up-modal {
+      left: 15%;
     }
 }
 
@@ -765,6 +869,12 @@ footer {
       grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
     }
 
+    /* Signup */
+
+    .sign-up-modal {
+      left: 20px;
+      width: 90%;
+    }
     
 }
 

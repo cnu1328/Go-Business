@@ -1,0 +1,81 @@
+const joinButton = document.querySelector(".join-button");
+const closeButton = document.querySelector(".close-button");
+const closeButton1 = document.querySelector(".close-button1");
+const signUpModal = document.querySelector(".sign-up-modal");
+const loginLink = document.querySelector(".login-link");
+const loginModal = document.querySelector(".login-modal");
+const signUpLink = document.querySelector(".signup-link");
+
+const signUpForm = document.getElementById("signup-form");
+const passwordInput = document.getElementById("password");
+const confirmPasswordInput = document.getElementById("confirm-password");
+const passwordMismatchError = document.getElementById("password-mismatch-error");
+
+// Join Button Click
+joinButton.addEventListener("click", () => {
+    signUpModal.style.display = "block"; 
+});
+
+// Closing The Modals
+closeButton.addEventListener("click", () => {
+    signUpModal.style.display = "none";
+});
+
+closeButton1.addEventListener("click", () => {
+    loginModal.style.display = "none";
+});
+
+// Click on login text
+
+loginLink.addEventListener("click", () => {
+    signUpModal.style.display = "none";
+    loginModal.style.display = "block";
+});
+
+// Click on sign up text
+
+signUpLink.addEventListener("click", () => {
+    signUpModal.style.display = "block";
+    loginModal.style.display = "none";
+});
+
+// submit on signup
+
+signUpForm.addEventListener("submit", (event) => {
+    event.preventDefault();
+    
+    if (passwordInput.value !== confirmPasswordInput.value) {
+      passwordMismatchError.style.display = "block";
+      return; // Stop form submission if passwords don't match
+    }
+
+    const formData = new FormData(signUpForm);
+    const email = formData.get("email");
+    const password = formData.get("password");
+
+    // Storing username and password in local storage
+    localStorage.setItem("username", email);
+    localStorage.setItem("password", password);
+
+    // Clearing the form
+    signUpForm.reset();
+      
+    // Closing the signup modal
+    // const signUpModal = document.querySelector(".sign-up-modal");
+    // const modalOverlay = document.querySelector(".modal-overlay");
+    signUpModal.style.display = "none";
+    modalOverlay.style.display = "none";
+
+});
+
+// Reset error message on input change
+passwordInput.addEventListener("input", () => {
+    passwordMismatchError.style.display = "none";
+});
+
+confirmPasswordInput.addEventListener("input", () => {
+    passwordMismatchError.style.display = "none";
+});
+
+
+
