@@ -456,7 +456,273 @@ footer {
 }
 
 
+/* Frequenly Asked Question */
 
+.frequently-asked-questions {
+    font-family: "Chivo";
+    width: 90%;
+    margin: 100px auto 80px auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+
+.faq-sub-block {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    min-height: 100px;
+    min-width: 200px;
+    border: 1px solid #8E54E9;
+    border-radius: 10px;
+    margin: 10px;
+}
+
+.faq-sub-block-1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.faq-sub-block-1 p {
+    font-weight: 600;
+}
+
+
+
+.faq-sub-block:hover {
+    box-shadow: 1px 2px 6px 1px rgba(188, 76, 226, 0.5);
+}
+
+.faq-sub-block i {
+    padding-right: 20px;
+    color: #8E54E9;
+}
+
+
+.prev-button-div {
+    flex: 0.1;
+}
+
+.prev-button-div i {
+    color: #8E54E9;
+    font-weight: bolder;
+    font-size: 50px;
+    cursor: pointer;
+}
+
+
+.faqs-div {
+    display: flex;
+    gap: 10px;
+    overflow-x: auto;
+}
+
+
+/* Explore Courses */
+
+.explore-courses {
+    margin: auto;
+    font-family: "Poppins";
+}
+
+.explore-courses-content {
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+    overflow-x: auto;
+
+}
+
+.explore-courses-frame {
+    font-family: "Chivo";
+    margin: 30px 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 10px;
+}
+
+.prev-button-div1 {
+  flex: 0.5;
+}
+
+.prev-button-div1 i {
+  color: #8E54E9;
+  font-weight: bolder;
+  font-size: 50px;
+  cursor: pointer;
+}
+
+
+.explore-courses-title h1 {
+  width: 83%;
+  margin: auto;
+    font-size: 32px;
+}
+
+.explore-courses-title h1 span {
+    color: #8E54E9;
+}
+
+.course-card {
+    min-width: 260px;
+    background-color: #FAFAFD;
+    box-shadow: 0px 0px 11px 1px rgba(0,0,0,0.1);
+    border-radius: 10px;
+}
+
+.course-content {
+    font-family: "Roboto";
+    padding: 10px;
+}
+
+.category {
+    color: #747C82;
+}
+
+.course-content h3 {
+    font-size: 16px;
+}
+
+.course-img img {
+    border-radius: 10px;
+    width: 100%;
+}
+
+.course-price {
+    color: #747C82;
+}
+
+.timings {
+    display: flex;
+
+    justify-content: space-between;
+}
+
+.course-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+    margin-top: 20px;
+}
+
+.course-buttons a {
+    text-decoration: none;
+}
+
+.course-buttons a button {
+    padding: 8px 10px;
+    border-radius: 10px;
+    border: 1px solid rgb(99, 94, 94);
+    background-color: transparent;
+    color: #465159;
+    /* font-weight: bold; */
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.start-learning {
+    background-color: #8E54E9 !important;
+    color: #FFFFFF !important;
+}
+
+.explore-course-button {
+  display: flex;
+  justify-content: center;
+
+}
+
+.explore-course-button a {
+  text-decoration: none;
+}
+
+.explore-course-button a button {
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid #8E54E9;
+  background-color: transparent;
+  color: #8E54E9;
+  font-weight: bold;
+  cursor: pointer;  
+}
+
+
+/* Review Section */
+
+.review-section {
+  width: 90%;
+  margin: 100px auto 50px auto;
+}
+
+.review-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.review-title h1 {
+  text-align: center;
+  font-family: "Inter";
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.review-title h1 span {
+  font-weight: bolder;
+}
+
+.review-content {
+  margin-top: 20px;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+  gap: 20px;
+}
+
+.review-card {
+  width: 220px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.review-card-content p {
+  font-style: italic;
+  font-size: 15px;
+  margin-bottom: 5px;
+}
+
+.stars i {
+  font-size: 13px;
+  color: #F5AB00;
+}
+
+.review-card-user {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  gap: 20px;
+}
+
+.user-image img {
+  width: 70px;
+}
+
+.user-details .name {
+  color: #000000;
+  font-size: 14px;
+  font-weight: bold;
+}
+
+.user-details .role {
+  font-size: 13px;
+}
 
 
 
@@ -491,6 +757,12 @@ footer {
     .benefits-content {
         flex-direction: column;
         gap: 20px;
+    }
+
+    /* Review Section */
+
+    .review-content {
+      grid-template-columns: repeat(auto-fill, minmax(210px, 1fr));
     }
 
     
@@ -536,4 +808,32 @@ footer {
         width: 80%;
         margin: auto;
     }
+
+    /* FAQ Section */
+
+    .faq-sub-block {
+      min-width: 150px;
+    }
+
+
+    /* Explore Courses */
+
+    .prev-button-div1 i,
+    .prev-button-div i {
+      font-size: 20px;
+    }
+
+    .course-card {
+      min-width: 200px;
+    }
+
+    
+}
+
+@media screen and (max-width: 490px) {
+  /* Review Section */
+
+  .review-content {
+    margin: auto;
+  }
 }
