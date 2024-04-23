@@ -12,10 +12,10 @@ With a customer-centric approach, Goo Business is dedicated to providing top-not
 
 ## Internship Highlights
 
-### 🌐 Real-Time Projects
+### Real-Time Projects
 Explore a diverse range of projects that reflect the current industry trends and challenges. From innovative solutions to practical implementations, each project offers a unique learning experience.
 
-### 🚀 Hands-On Learning
+### Hands-On Learning
 Engage in hands-on learning with projects that go beyond theoretical knowledge. Gain practical skills that are directly applicable to your career in the Software Industry.
 
 
@@ -31,11 +31,30 @@ Engage in hands-on learning with projects that go beyond theoretical knowledge. 
    - [Live Link](https://cnu13281.netlify.app/project2/index.html)
 
 3. **Project 3: [Contact Us Page]**
+   - The "Contact Us" page serves as a crucial point of interaction between a website or business and its visitors. It provides a means for users to reach out with inquiries, feedback, or other communications.
+   - I developed a Contact Us page enabling message sending upon user interaction via SMTP integration.
    - [Live Link](https://cnu13281.netlify.app/project3/index.html)
   
 4. **Project 4: [Figma Design]**
+   - Developed a Figma Design
    - [Live Link](https://cnu13281.netlify.app/project4/index.html)
+
+5. **Project 5: [Referral Page]**
+   - Developed a referral page with functionality for user sign-up and signing-in.
+   - [Live Link](https://cnu13281.netlify.app/project5/referral.html)
+
+
+6. **Project 6: [Home Page Figma Desgin]**
+   - Developed a Home page for Figma Design
+   - [Live Link](https://cnu13281.netlify.app/project6/newbase.html)
   
+7. **Project 7: [Referral Page Figma Desgin]**
+   - Developed a referral page for Figma Design
+   - [Live Link](https://cnu13281.netlify.app/project6/newbase.html)
+  
+8. **Project 8: [Header and Footer of Landing page Figma Design]**
+   - Developed a Figma Design
+   - [Live Link](https://cnu13281.netlify.app/project8/landing.html)
 
 
 ## Connect with Me
