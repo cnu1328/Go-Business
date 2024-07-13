@@ -50,7 +50,7 @@ Engage in hands-on learning with projects that go beyond theoretical knowledge. 
   
 7. **Project 7: [Referral Page Figma Desgin]**
    - Developed a referral page for Figma Design
-   - [Live Link](https://cnu13281.netlify.app/project6/newbase.html)
+   - [Live Link](https://cnu13281.netlify.app/project7/referral.html)
   
 8. **Project 8: [Header and Footer of Landing page Figma Design]**
    - Developed a Figma Design
