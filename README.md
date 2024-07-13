@@ -3,7 +3,7 @@
 Welcome to my Goo Business Internship repository! 🚀 Here, I'll be sharing real-time projects assigned during my exciting internship journey with Goo Business.
 
 ## About Goo Business
-https://goobusines.com/
+
 At [Goo Business](https://goobusines.com/), a dedicated team of professionals specializes in comprehensive services designed to elevate businesses to new heights. With expertise in B2B lead generation, LinkedIn lead generation, web research, data scraping, data entry, PDF conversion, and more, we are committed to delivering tailored and impactful solutions.
 
 The team at Goo Business takes pride in offering a suite of services that empowers businesses by providing strategic solutions, from B2B lead generation strategies to LinkedIn lead generation that expands networks, and from precise web research to efficient data scraping.
